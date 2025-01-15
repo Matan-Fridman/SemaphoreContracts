@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "_pA",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "_pB",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "_pC",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[4]",
+						"name": "_pubSignals",
+						"type": "uint256[4]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "merkleTreeDepth",
+						"type": "uint256"
+					}
+				],
+				"name": "verifyProof",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"verifyProof(uint256[2],uint256[2][2],uint256[2],uint256[4],uint256)": {
+					"details": "Returns true if the proof was successfully verified.",
+					"params": {
+						"_pA": ": Point A.",
+						"_pB": ": Point B.",
+						"_pC": ": Point C.",
+						"_pubSignals": ": Public signals.",
+						"merkleTreeDepth": ": Merkle tree depth."
+					},
+					"returns": {
+						"_0": "True if the proof was successfully verified, false otherwise."
+					}
+				}
+			},
+			"title": "SemaphoreVerifier contract interface.",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/ISemaphoreVerifier.sol": "ISemaphoreVerifier"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/ISemaphoreVerifier.sol": {
+			"keccak256": "0x920fe8bf82383a14ac6a9b5db9436df2ae5b1341dc7e3d17991422fb1d7fcfd9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://093a3941d5557f46681bbc9dfe135416b0d6bed6954561c879fa144acc64708c",
+				"dweb:/ipfs/QmTjUbV6iadMAe88e2Eo4gHH2ETK4z3CpXWWjtpdrdH6h4"
+			]
+		}
+	},
+	"version": 1
+}
