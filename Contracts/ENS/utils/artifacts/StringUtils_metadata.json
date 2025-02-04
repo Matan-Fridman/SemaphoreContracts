@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/ENS/utils/StringUtils.sol": "StringUtils"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/ENS/utils/StringUtils.sol": {
+			"keccak256": "0xf505b6c6d087c5035b6cc08b2b801311f788914bf8199f0110b4278532108832",
+			"urls": [
+				"bzz-raw://ff5eea185a060523c0b291b4d7b4c70d3bad12740d802b60c9876e3c3c3ddb5e",
+				"dweb:/ipfs/QmaSmbRKNHBy6kPqCX2sL9RhKFKzKgmzwm3md9EgEYjsuD"
+			]
+		}
+	},
+	"version": 1
+}

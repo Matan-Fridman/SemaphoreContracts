@@ -1,0 +1,175 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "duration",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "monthly",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "setupFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/SemaphoreSub.sol": "IproductsContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@zk-kit/imt.sol/Constants.sol": {
+			"keccak256": "0x5c7288e71c0ba30198217b824c7899327a0718f769bb441ebf84d78194ea7dea",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://779a95196453ee58ec56447e0001d689c1ca8e748a0d435c91429d4076f1a197",
+				"dweb:/ipfs/QmWyuCzxShndqGcaXFr13sALM5nHztYN288ZK5uNAGzkUf"
+			]
+		},
+		"@zk-kit/imt.sol/internal/InternalLeanIMT.sol": {
+			"keccak256": "0x0e5cec0afefdc649ac6f0dffab31d85c1aaf9fcee6a34928be741c0a5f6fcc1f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c4fd42e974389ee423c0d2d4cb81e2906ec9c784717b15a48f876c8cb68a4b50",
+				"dweb:/ipfs/QmWSjwLimspd9WdZAshuakaX4uWpdAjoKNqJCiq6HWJEKa"
+			]
+		},
+		"Contracts/Constants.sol": {
+			"keccak256": "0x5af263f0822eff49103b060135299ca17f07ff4f462f7b662fc809eae3d2969c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f6d9a6848837dcb61397e69e81acfff69c36edffff3b74b1e737914a2749486a",
+				"dweb:/ipfs/QmSq8dQTfLtd69HtqXFiw9QQnxXWt8qRe12nfiNBWce7BT"
+			]
+		},
+		"Contracts/ISemaphore.sol": {
+			"keccak256": "0x7b6ad444406d18e1273a68a2db216d6ba5d3649a60b0eb38a93bfc5a364bfcad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1d27d09239f17f936b08c2640bd7bb738607aaacbce63b5ffd7d9f9ecec1d79",
+				"dweb:/ipfs/QmeZDhHpjuJM5yuNcihik4AXJnqd5MqkKDY2BvADTSocHf"
+			]
+		},
+		"Contracts/ISemaphoreGroups.sol": {
+			"keccak256": "0x7fa6d5932dd3b896220f8db883002425519fdab63784ec73315916ba5d719f0f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f258a6b0e53edc386b8e99dc7fd19a9bc8507579dc421dd68044a0ccea2f597b",
+				"dweb:/ipfs/QmdppUJWnNs9BmNFPnKksr3AiiC8VsfQmWAYKiGMfUaPRi"
+			]
+		},
+		"Contracts/ISemaphoreVerifier.sol": {
+			"keccak256": "0x920fe8bf82383a14ac6a9b5db9436df2ae5b1341dc7e3d17991422fb1d7fcfd9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://093a3941d5557f46681bbc9dfe135416b0d6bed6954561c879fa144acc64708c",
+				"dweb:/ipfs/QmTjUbV6iadMAe88e2Eo4gHH2ETK4z3CpXWWjtpdrdH6h4"
+			]
+		},
+		"Contracts/Semaphore.sol": {
+			"keccak256": "0xf76bbce7f0cbf0a1ea5f52df248bd79c5db144db0272a356157cd6903257e0b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b71481f0e9861c604ea25ef2b0f8a4e484e0780f1b4a243ed5bcfab047df8de",
+				"dweb:/ipfs/QmXk3EbSomtpLoW7Eu1cuJ44YgwsZiHCobetQhrEgjBa6t"
+			]
+		},
+		"Contracts/SemaphoreGroups.sol": {
+			"keccak256": "0x22945224c88c5b44c6babc54b68556369dc6a179fffa4f9547ea475b47d6d3d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://407eb5431c1d7e1d1b506f8fb5d0ad60f58674aff7e32dad0bb68f9badcf2f4e",
+				"dweb:/ipfs/QmRjvPbez5JtQCyUXJxWJMR7W6B1fdDdqJyMTjosBM4frF"
+			]
+		},
+		"Contracts/SemaphoreSub.sol": {
+			"keccak256": "0xb692f6ee475af2783e6060a5174360a4cff6ae1e5598ef9b3bb16ad3515bc525",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd68075a7c4affe8d6ef1e019dc6700c751743dbac88f5af2ac69aade7afb8a2",
+				"dweb:/ipfs/QmbeFP1pbWp3brKHRSCF23wjgdJbHX9MRpxnm5tsCQh5Mc"
+			]
+		},
+		"poseidon-solidity/PoseidonT3.sol": {
+			"keccak256": "0x0102caa303bbc6690508f3615604f7730789ed990058c9513a87ccb30e4835be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1fe7291d5f998eaf7dfe37961b8a8e72f60cf79a7a34459efa5683ca3a702971",
+				"dweb:/ipfs/QmQExqgvNEPKLq15rNygqmthUnAPWgTm4m3Bb5BCExwHF1"
+			]
+		}
+	},
+	"version": 1
+}

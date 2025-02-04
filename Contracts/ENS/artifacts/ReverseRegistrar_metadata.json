@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Multicall.sol": "ReverseRegistrar"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Multicall.sol": {
+			"keccak256": "0x9261147e0a14bcf338d49969a7ffc7d62950e83da581434f9c64205fdce09778",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://407508a7b6d6220a5005a7e619bf91559019ecc2eda49a7fe38b6b7b297d8fef",
+				"dweb:/ipfs/QmVr6aUaFFc2DBzGZ8XRU45Jj1dv9og7sw1qs8i2E2p35C"
+			]
+		}
+	},
+	"version": 1
+}

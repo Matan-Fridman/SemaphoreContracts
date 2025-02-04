@@ -16,7 +16,7 @@ contract ProductsSemaphore is Semaphore {
     }
 
     function deposit(uint amount, uint256 commitment)public payable{
-        require(amount == 1 || amount == 10 || amount == 100, "Amount is nt valid");
+        require(amount == 1 || amount == 10 || amount == 100, "Amount is'nt valid");
         require(amount <= msg.value - 1);
         this.addMember(amount, commitment);
     }
